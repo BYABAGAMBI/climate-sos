@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Climate Africa SOS (U) Ltd</title>
+    <meta name="description" content="Join Climate Africa SOS in our mission. Volunteer, partner, or donate to support climate action and community empowerment in Kanungu District, Uganda.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Climate Africa SOS</h1>
+                    <span class="tagline">(U) Ltd</span>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Our Programs</a></li>
+                    <li><a href="impact.html">Projects & Impact</a></li>
+                    <li><a href="get-involved.html" class="active">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Donation Banner -->
+    <div class="donation-banner">
+        <button class="donation-btn" onclick="copyAccountNumber()">🌍 Donate to support our work (<span class="account-number">9030027830012</span>)</button>
+    </div>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Get Involved</h1>
+                <p>Join us in creating a sustainable future through climate action and community empowerment</p>
+            </div>
+        </section>
+
+        <section class="involvement-intro">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <h2>Make a Difference Today</h2>
+                        <p>Climate Africa SOS (U) Ltd offers multiple ways for individuals, organizations, and businesses to contribute to our mission of environmental conservation and community development. Whether you want to volunteer your time, partner with us, or provide financial support, your involvement makes a real difference.</p>
+                        <p>Together, we can create lasting positive change for communities and ecosystems in Kanungu District and beyond.</p>
+                    </div>
+                    <div class="intro-image">
+                        <div class="placeholder-image">🤝</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="volunteer-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">🙋‍♂️</div>
+                    <div class="section-title">
+                        <h2>Volunteer With Us</h2>
+                        <p>Share your skills and time to support our environmental and community development programs</p>
+                    </div>
+                </div>
+
+                <div class="volunteer-opportunities">
+                    <div class="opportunity-card">
+                        <h3>Environmental Conservation</h3>
+                        <p>Join our tree planting, wetland restoration, and environmental monitoring activities.</p>
+                        <ul>
+                            <li>Tree planting campaigns</li>
+                            <li>Wetland restoration projects</li>
+                            <li>Environmental education</li>
+                            <li>Community clean-up drives</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="showVolunteerForm('conservation')">Apply to Volunteer</button>
+                    </div>
+
+                    <div class="opportunity-card">
+                        <h3>Skills Training & Mentorship</h3>
+                        <p>Share your expertise in entrepreneurship, business development, or technical skills.</p>
+                        <ul>
+                            <li>Business mentorship</li>
+                            <li>Technical skills training</li>
+                            <li>Entrepreneurship coaching</li>
+                            <li>Career guidance</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="showVolunteerForm('training')">Apply to Volunteer</button>
+                    </div>
+
+                    <div class="opportunity-card">
+                        <h3>Research & Documentation</h3>
+                        <p>Support our programs through research, monitoring, and impact assessment.</p>
+                        <ul>
+                            <li>Environmental research</li>
+                            <li>Program evaluation</li>
+                            <li>Data collection & analysis</li>
+                            <li>Report writing</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="showVolunteerForm('research')">Apply to Volunteer</button>
+                    </div>
+
+                    <div class="opportunity-card">
+                        <h3>Community Outreach</h3>
+                        <p>Help us spread awareness and mobilize community support for our initiatives.</p>
+                        <ul>
+                            <li>Awareness campaigns</li>
+                            <li>Community mobilization</li>
+                            <li>Social media management</li>
+                            <li>Event organization</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="showVolunteerForm('outreach')">Apply to Volunteer</button>
+                    </div>
+                </div>
+
+                <div class="volunteer-benefits">
+                    <h3>Why Volunteer With Us?</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🌱</div>
+                            <h4>Make Real Impact</h4>
+                            <p>Contribute to tangible environmental and social change in communities</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🎓</div>
+                            <h4>Learn & Grow</h4>
+                            <p>Gain valuable experience in environmental conservation and community development</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🌍</div>
+                            <h4>Cultural Exchange</h4>
+                            <p>Experience local culture and build meaningful connections</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">📜</div>
+                            <h4>Certification</h4>
+                            <p>Receive certificates and recognition for your contributions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partnership-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">🤝</div>
+                    <div class="section-title">
+                        <h2>Partner With Us</h2>
+                        <p>Collaborate with us to amplify our impact and achieve shared goals</p>
+                    </div>
+                </div>
+
+                <div class="partnership-types">
+                    <div class="partnership-card">
+                        <div class="partnership-icon">🏢</div>
+                        <h3>Corporate Partnerships</h3>
+                        <p>Partner your business with our environmental and social impact initiatives.</p>
+                        <div class="partnership-benefits">
+                            <h4>Benefits for Your Business:</h4>
+                            <ul>
+                                <li>Enhanced corporate social responsibility profile</li>
+                                <li>Positive brand association with environmental causes</li>
+                                <li>Employee engagement opportunities</li>
+                                <li>Measurable impact reporting</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="showPartnershipForm('corporate')">Explore Partnership</button>
+                    </div>
+
+                    <div class="partnership-card">
+                        <div class="partnership-icon">🎓</div>
+                        <h3>Academic Partnerships</h3>
+                        <p>Collaborate on research, training, and educational initiatives.</p>
+                        <div class="partnership-benefits">
+                            <h4>Collaboration Opportunities:</h4>
+                            <ul>
+                                <li>Joint research projects</li>
+                                <li>Student internship programs</li>
+                                <li>Curriculum development</li>
+                                <li>Knowledge exchange programs</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="showPartnershipForm('academic')">Explore Partnership</button>
+                    </div>
+
+                    <div class="partnership-card">
+                        <div class="partnership-icon">🏛️</div>
+                        <h3>Government Partnerships</h3>
+                        <p>Work together to implement environmental policies and community programs.</p>
+                        <div class="partnership-benefits">
+                            <h4>Areas of Collaboration:</h4>
+                            <ul>
+                                <li>Policy implementation support</li>
+                                <li>Community development programs</li>
+                                <li>Environmental monitoring</li>
+                                <li>Capacity building initiatives</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="showPartnershipForm('government')">Explore Partnership</button>
+                    </div>
+
+                    <div class="partnership-card">
+                        <div class="partnership-icon">🌐</div>
+                        <h3>International NGOs</h3>
+                        <p>Join forces to address global environmental and development challenges.</p>
+                        <div class="partnership-benefits">
+                            <h4>Collaboration Areas:</h4>
+                            <ul>
+                                <li>Resource sharing</li>
+                                <li>Technical expertise exchange</li>
+                                <li>Joint program implementation</li>
+                                <li>Funding partnerships</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="showPartnershipForm('ngo')">Explore Partnership</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="donation-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">💝</div>
+                    <div class="section-title">
+                        <h2>Donate to Support Our Work</h2>
+                        <p>Your financial support helps us expand our impact and reach more communities</p>
+                    </div>
+                </div>
+
+                <div class="donation-impact">
+                    <div class="impact-highlights">
+                        <div class="impact-item">
+                            <div class="impact-amount">$25</div>
+                            <div class="impact-description">Provides 10 tree seedlings for community planting</div>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-amount">$50</div>
+                            <div class="impact-description">Supports one youth with entrepreneurship training materials</div>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-amount">$100</div>
+                            <div class="impact-description">Fuels one clean cookstove for a family</div>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-amount">$250</div>
+                            <div class="impact-description">Supports wetland restoration for one hectare</div>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-amount">$500</div>
+                            <div class="impact-description">Funds a complete beekeeping startup kit</div>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-amount">$1000</div>
+                            <div class="impact-description">Supports a community tree nursery for one year</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="donation-options">
+                    <div class="donation-form">
+                        <h3>Make a Donation</h3>
+                        <form id="donationForm">
+                            <div class="form-group">
+                                <label for="donation-amount">Donation Amount (USD)</label>
+                                <div class="amount-options">
+                                    <button type="button" class="amount-btn" onclick="setAmount(25)">$25</button>
+                                    <button type="button" class="amount-btn" onclick="setAmount(50)">$50</button>
+                                    <button type="button" class="amount-btn" onclick="setAmount(100)">$100</button>
+                                    <button type="button" class="amount-btn" onclick="setAmount(250)">$250</button>
+                                    <button type="button" class="amount-btn" onclick="setAmount(500)">$500</button>
+                                    <button type="button" class="amount-btn" onclick="setAmount(1000)">$1000</button>
+                                </div>
+                                <input type="number" id="donation-amount" name="amount" placeholder="Enter custom amount" min="1">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donation-type">Donation Type</label>
+                                <select id="donation-type" name="type" required>
+                                    <option value="">Select donation type</option>
+                                    <option value="one-time">One-time Donation</option>
+                                    <option value="monthly">Monthly Donation</option>
+                                    <option value="annual">Annual Donation</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donation-program">Program Support</label>
+                                <select id="donation-program" name="program" required>
+                                    <option value="">Where to direct your donation</option>
+                                    <option value="general">General Support</option>
+                                    <option value="trees">Tree Planting</option>
+                                    <option value="wetlands">Wetland Restoration</option>
+                                    <option value="training">Youth & Women Training</option>
+                                    <option value="energy">Clean Energy</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donor-name">Full Name</label>
+                                <input type="text" id="donor-name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donor-email">Email Address</label>
+                                <input type="email" id="donor-email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donor-phone">Phone Number</label>
+                                <input type="tel" id="donor-phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="donor-message">Message (Optional)</label>
+                                <textarea id="donor-message" name="message" rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">Proceed to Payment</button>
+                        </form>
+                    </div>
+
+                    <div class="donation-info">
+                        <h3>Other Ways to Give</h3>
+                        <div class="giving-options">
+                            <div class="giving-option">
+                                <h4>📱 Mobile Money</h4>
+                                <p>MTN: +256 XXX XXX XXX<br>Airtel: +256 XXX XXX XXX</p>
+                            </div>
+                            <div class="giving-option">
+                                <h4>🏦 Bank Transfer</h4>
+                                <p><strong>9030027830012</strong></p>
+                            </div>
+                            <div class="giving-option">
+                                <h4>💳 In-Person</h4>
+                                <p>Visit our office at:<br>Mt. Gorilla Inn, Bushura Village<br>Kirima Sub-County, Kanungu District</p>
+                            </div>
+                        </div>
+
+                        <div class="tax-info">
+                            <h4>Tax Benefits</h4>
+                            <p>Donations to Climate Africa SOS (U) Ltd may be tax-deductible. Please consult with your tax advisor for specific information about charitable giving in your jurisdiction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recognition">
+            <div class="container">
+                <h2>Donor Recognition</h2>
+                <p>We gratefully acknowledge all our supporters and partners who make our work possible.</p>
+                
+                <div class="recognition-levels">
+                    <div class="recognition-level">
+                        <h3>🌱 Green Champion</h3>
+                        <p>Annual donations of $1,000 - $4,999</p>
+                        <ul>
+                            <li>Name on our website</li>
+                            <li>Annual impact report</li>
+                            <li>Invitation to annual event</li>
+                        </ul>
+                    </div>
+                    <div class="recognition-level">
+                        <h3>🌳 Earth Guardian</h3>
+                        <p>Annual donations of $5,000 - $9,999</p>
+                        <ul>
+                            <li>All Green Champion benefits</li>
+                            <li>Featured in annual report</li>
+                            <li>Site visit opportunities</li>
+                        </ul>
+                    </div>
+                    <div class="recognition-level">
+                        <h3>🌍 Climate Hero</h3>
+                        <p>Annual donations of $10,000+</p>
+                        <ul>
+                            <li>All Earth Guardian benefits</li>
+                            <li>Naming opportunities</li>
+                            <li>Personalized impact updates</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Make a Difference?</h2>
+                    <p>Every contribution, whether time, expertise, or financial support, helps us create a more sustainable future. Join us today!</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                        <a href="index.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Climate Africa SOS (U) Ltd</h3>
+                    <p>Working towards a greener tomorrow through climate action and community empowerment.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Our Programs</a></li>
+                        <li><a href="impact.html">Projects & Impact</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 Keseke Building, Kibimba<br>Mugoma Road, Kanungu District</p>
+                    <p>📧 <a href="mailto:climateafricasos@gmail.com" class="email-link">climateafricasos@gmail.com</a></p>
+                    <p>📱 <a href="tel:+256754741260" class="phone-link">+256 754741260</a></p>
+                    <p>🕒 Mon-Fri: 8AM-5PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Climate Africa SOS (U) Ltd. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function setAmount(amount) {
+            document.getElementById('donation-amount').value = amount;
+            // Remove active class from all buttons
+            document.querySelectorAll('.amount-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+
+        function showVolunteerForm(type) {
+            alert(`Thank you for your interest in volunteering for ${type}! Please fill out the contact form on our Contact page, and we will get in touch with you soon.`);
+        }
+
+        function showPartnershipForm(type) {
+            alert(`Thank you for your interest in ${type} partnership! Please contact us directly at info@climateafricasos.org or use the contact form, and our partnership team will reach out to discuss collaboration opportunities.`);
+        }
+    </script>
+</body>
+</html>
